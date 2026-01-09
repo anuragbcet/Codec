@@ -219,11 +219,11 @@ docker build -t java-runner .
 ```bash
 # Backend
 cd express-backend
-npm run dev
+npm run start
 
 # Worker
 cd ../worker
-npm run dev
+npm run start
 ```
 
 ---
