@@ -30,25 +30,19 @@ Execution Result → Redis / DB → Backend → Client
 .
 ├── express-backend/        # Main backend service
 │   ├── src/
-│   │   ├──routes/
-│   │   ├── controllers/
-│   │   ├── services/
 │   │   └── index.ts
 │   └── package.json
 │
 ├── worker/                 # Code execution worker
 │   ├── src/
-│   │   ├── worker.ts
-│   │   ├── executor.ts
-│   │   └── utils.ts
+│   │   ├── index.ts
 │   └── package.json
 │
-├── docker/                 # Runtime images
+├── docker/                 # Runtime images # Remaining work
 │   └── java-runner/
 │       └── Dockerfile
 │
 ├── README.md
-└── docker-compose.yml (optional)
 ```
 
 ---
